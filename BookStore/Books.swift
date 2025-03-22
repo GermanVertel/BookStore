@@ -19,6 +19,7 @@ struct Book: Identifiable {
     var locale : Locale
     
     
+    
     lazy var formater: NumberFormatter = {
         let nf = NumberFormatter()
         nf.numberStyle = .currency
@@ -26,6 +27,7 @@ struct Book: Identifiable {
         return nf
     }()
         
+    
     
     
     init(Product: SKProduct, lock: Bool = true) {
