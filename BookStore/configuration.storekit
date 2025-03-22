@@ -1,0 +1,141 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "75A714AC",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "D1BC1EDA",
+      "localizations" : [
+        {
+          "description" : "libro escrito por dawn brown",
+          "displayName" : "El codigo Davinci",
+          "locale" : "es_MX"
+        }
+      ],
+      "productID" : "xinu.BookStore.CodigoDavinchi",
+      "referenceName" : "Codigo Davinchi",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "CF75F969",
+      "localizations" : [
+        {
+          "description" : "la pieda filosofal",
+          "displayName" : "Harry potter",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "xinu.BookStore.harryPotter",
+      "referenceName" : "harry Potter",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "A22E5AB6",
+      "localizations" : [
+
+      ],
+      "name" : "Full Access",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "3.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "2DFB7D05",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "acceso a todos los libros de la app",
+              "displayName" : "Full acces",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "xinu.BookStore",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Full Acces",
+          "subscriptionGroupID" : "A22E5AB6",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
